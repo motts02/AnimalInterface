@@ -25,6 +25,7 @@ public class Dog implements Animal {
 
        @return the species "dog"
     */
+    @Override
     public String species() {
 
 	return "dog";
@@ -35,6 +36,7 @@ public class Dog implements Animal {
 
        @return 4 for the number of legs a dog has
     */
+    @Override
     public int numLegs() {
 
 	return 4;
@@ -45,6 +47,7 @@ public class Dog implements Animal {
        
        @param newWeight the new weight of the 
     */
+    @Override
     public void setWeight(double newWeight) {
 
 	weight = newWeight;
@@ -55,6 +58,7 @@ public class Dog implements Animal {
        
        @return the weight of the dog
     */
+    @Override
     public double getWeight() {
 
 	return weight;

@@ -61,5 +61,6 @@ public class Zoo {
 	    }
 	}
 	System.out.println("Dogs in the zoo: " + numDogs);
+
     }
 }
